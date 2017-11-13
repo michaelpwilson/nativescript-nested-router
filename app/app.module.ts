@@ -17,6 +17,8 @@ import { CatDetailsComponent } from './cat-details/cat-details.component';
 
 import { DogService } from './dog.service';
 
+import { LoginComponent } from './login/login.component';
+
 @NgModule({
     bootstrap: [
         AppComponent
@@ -35,7 +37,8 @@ import { DogService } from './dog.service';
         DogsComponent,
         DogDetailsComponent,
         CatsComponent,
-        CatDetailsComponent
+        CatDetailsComponent,
+        LoginComponent
     ],
     providers: [
         DogService
